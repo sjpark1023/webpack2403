@@ -1,0 +1,26 @@
+{
+  "name": "web-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "webpack serve --open --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "mini-css-extract-plugin": "^2.8.1",
+    "package": "^1.0.1",
+    "style-loader": "^3.3.4",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.3"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "touch": "^3.1.0",
+    "webpack.config.js": "^0.0.0"
+  }
+}
